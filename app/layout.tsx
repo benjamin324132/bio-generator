@@ -11,7 +11,6 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL!),
   title: siteConfig.name,
   description: siteConfig.description,
   keywords: ["Bio", "Resumen", "Portada", "AI", "Generar", "OpenAI", "Next JS"],
