@@ -100,9 +100,9 @@ const GenerateForm = () => {
         </Button>
       </form>
       <div className="max-w-[40rem] mx-auto pb-28">
-        {bios.map((bio) => {
+        {bios.map((bio, index) => {
           return (
-            <Card>
+            <Card key={index}>
               <CardHeader className="flex flex-row items-center justify-between">
                 <CardTitle className=" text-green-500">Tu bio</CardTitle>
                 <Button
